@@ -11,7 +11,6 @@ class Heading {
 
         document.querySelector('body').appendChild(heading);
     }
-
     
 }
 
