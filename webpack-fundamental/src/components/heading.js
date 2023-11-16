@@ -7,7 +7,7 @@ class Heading {
 
         heading.innerText = text;
 
-        heading.classList('main-title');
+        heading.classList.add('main-title');
 
         document.querySelector('body').appendChild(heading);
     }
