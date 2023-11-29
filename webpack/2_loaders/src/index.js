@@ -35,4 +35,4 @@ console.log(frase.toUpperCase());
 
 // Import JSON
 const pessoa = descricao;
-console.log(pessoa)
+console.log(pessoa);
