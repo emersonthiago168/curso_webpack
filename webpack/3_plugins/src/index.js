@@ -5,4 +5,4 @@ heading.create('Página principal');
 
 console.log(VERSION);
 console.log(PORT);
-console.log(nome);
+console.log(process.env.API_KEY);
