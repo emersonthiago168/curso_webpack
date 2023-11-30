@@ -1,3 +1,5 @@
+import './heading.css'
+
 export default class Heading {
     create(title) {
         const h1 = document.createElement('h1');
