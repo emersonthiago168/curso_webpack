@@ -1,4 +1,5 @@
 const path = require('path');
+const TarserPlugin = require('terser-webpack-plugin');
 
 module.exports = {
     entry: './src/index.js',
@@ -6,5 +7,8 @@ module.exports = {
         filename: 'bundle.js',
         path: path.resolve(__dirname, './dist')
     },
-    mode: 'development'
+    mode: 'development',
+    plugins: [
+        new TarserPlugin()
+    ]
 }
