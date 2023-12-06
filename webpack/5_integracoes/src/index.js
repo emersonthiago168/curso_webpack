@@ -1,3 +1,7 @@
+// IMPORT FONTS
+import './fonts.css';
+
+// IMPORT JQUERRY
 import $ from 'jquery';
 
 const body = $('body');
