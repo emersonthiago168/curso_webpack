@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_11_recursos_webpack=self.webpackChunk_11_recursos_webpack||[]).push([[34],{34:(e,s,c)=>{c.r(s),c.d(s,{default:()=>l});const l=()=>console.log("Olá, eu vim do lazy load!")}}]);
